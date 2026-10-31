@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<transport next_ticket_id="3">
+  <routes>
+    <route number="25" title="Центр - Вокзал" price="50.0">
+      <vehicle type="bus" number="А123ВС" capacity="2" low_floor="True" />
+      <stops>
+        <stop name="Центр" />
+        <stop name="Площадь" />
+        <stop name="Вокзал" />
+      </stops>
+    </route>
+    <route number="7" title="Парк - Завод" price="40.0">
+      <vehicle type="tram" number="Т-501" capacity="100" wagons="2" />
+      <stops>
+        <stop name="Парк" />
+        <stop name="Площадь" />
+        <stop name="Завод" />
+      </stops>
+    </route>
+  </routes>
+  <tickets>
+    <ticket id="1" route_number="25" price="50.0">
+      <passenger name="Иван Петров" phone="+7 900 111-22-33" />
+    </ticket>
+    <ticket id="2" route_number="7" price="40.0">
+      <passenger name="Анна Смирнова" phone="+7 900 444-55-66" />
+    </ticket>
+  </tickets>
+</transport>
